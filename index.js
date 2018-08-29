@@ -11,7 +11,7 @@ function increaseRankBy(n) {
   for (let i = 0; i < lis.length; i++) {
     lis[i].innerHTMl += n;
   }
-  return lis;
+  console.log(lis);
 }
 
 function deepestChild() {
