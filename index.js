@@ -11,7 +11,7 @@ function increaseRankBy(n) {
   for (let i = 0; i < lis.length; i++) {
     lis[i].innerHTMl = (parseInt(lis[i].innerHTMl) + n).toString();
   }
-  console.log(lis);
+  console.log(lis[0].innerHTML);
 }
 
 function deepestChild() {
