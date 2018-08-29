@@ -12,6 +12,7 @@ function increaseRankBy(n) {
     var int = parseInt(lis[i].innerHTML, 10);
     int += n;
   }
+  return lis;
 }
 
 function deepestChild() {
